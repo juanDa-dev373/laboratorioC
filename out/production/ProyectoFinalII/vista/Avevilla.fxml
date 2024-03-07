@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" style="-fx-background-image: url(&quot;https://img.freepik.com/vector-gratis/elegante-fondo-blanco-textura_23-2148438345.jpg&quot;);" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="control.BancosController">
+   <children>
+      <Label alignment="CENTER" prefHeight="105.0" prefWidth="843.0" text="Bienvinido al banco Avevilla">
+         <font>
+            <Font name="Arial Black" size="36.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="53.0" fitWidth="289.0" pickOnBounds="true" preserveRatio="true">
+         <VBox.margin>
+            <Insets left="250.0" top="30.0" />
+         </VBox.margin>
+         <image>
+            <Image url="@../Imagen/Banco_AV_Villas_logo.svg.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="pagar" mnemonicParsing="false" onAction="#eventoBoton" style="-fx-background-color: #ffffff00; -fx-background-image: url(&quot;https://pngimg.com/uploads/buttons/buttons_PNG167.png&quot;); -fx-background-position: center center; -fx-background-repeat: no-repeat; -fx-background-size: 120 70;" text="Pagar">
+         <font>
+            <Font size="30.0" />
+         </font>
+         <VBox.margin>
+            <Insets left="324.0" top="70.0" />
+         </VBox.margin>
+      </Button>
+   </children>
+</VBox>

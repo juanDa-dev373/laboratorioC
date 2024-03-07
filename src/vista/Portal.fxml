@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" style="-fx-background-image: url(&quot;https://img.freepik.com/vector-gratis/elegante-fondo-blanco-textura_23-2148438345.jpg&quot;); -fx-background-position: center center; -fx-background-repeat: no-repeat; -fx-background-size: 1000 1000;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="control.PortalController">
+   <children>
+      <ImageView fitHeight="143.0" fitWidth="131.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../Imagen/195496.png" />
+         </image></ImageView>
+      <VBox prefHeight="500.0" prefWidth="450.0" HBox.hgrow="ALWAYS">
+         <children>
+            <Label alignment="CENTER" prefHeight="59.0" prefWidth="375.0" text="INGRESE SUS DATOS" textAlignment="CENTER" textFill="#505050" VBox.vgrow="ALWAYS">
+               <font>
+                  <Font name="Arial Black" size="19.0" />
+               </font></Label>
+            <Label text="Nombre" textFill="#505050" VBox.vgrow="ALWAYS">
+               <VBox.margin>
+                  <Insets top="71.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="Arial Bold" size="13.0" />
+               </font></Label>
+            <TextField fx:id="nombre" prefHeight="39.0" prefWidth="194.0" style="-fx-background-color: #E3E0F3;" VBox.vgrow="ALWAYS">
+               <VBox.margin>
+                  <Insets top="20.0" />
+               </VBox.margin></TextField>
+            <Label text="Cedula" textFill="#505050" VBox.vgrow="ALWAYS">
+               <VBox.margin>
+                  <Insets top="20.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="Arial Bold" size="13.0" />
+               </font></Label>
+            <TextField fx:id="cedula" onAction="#eventoBoton" prefHeight="39.0" prefWidth="159.0" style="-fx-background-color: #E3E0F3;" VBox.vgrow="ALWAYS">
+               <VBox.margin>
+                  <Insets top="20.0" />
+               </VBox.margin></TextField>
+            <HBox prefHeight="174.0" prefWidth="408.0" VBox.vgrow="ALWAYS">
+               <children>
+                  <Button fx:id="boton" mnemonicParsing="false" onAction="#eventoBoton" prefHeight="49.0" prefWidth="136.0" style="-fx-background-color: #ffffff00; -fx-background-image: url(&quot;https://pngimg.com/uploads/buttons/buttons_PNG167.png&quot;); -fx-background-position: center center; -fx-background-repeat: no-repeat; -fx-background-size: 130 50;" text="Iniciar sesión" textAlignment="CENTER" HBox.hgrow="ALWAYS">
+                     <HBox.margin>
+                        <Insets left="10.0" top="50.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font name="Arial" size="12.0" />
+                     </font>
+                  </Button>
+                  <Button alignment="CENTER" mnemonicParsing="false" onAction="#eventoSalir" prefHeight="42.0" prefWidth="170.0" style="-fx-background-color: #ffffff00; -fx-background-image: url(&quot;https://pngimg.com/uploads/buttons/buttons_PNG167.png&quot;); -fx-background-position: center center; -fx-background-repeat: no-repeat; -fx-background-size: 145 51;" text="Salir" textAlignment="CENTER" HBox.hgrow="ALWAYS">
+                     <HBox.margin>
+                        <Insets left="129.0" top="50.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font name="Arial" size="12.0" />
+                     </font>
+                  </Button>
+               </children>
+            </HBox>
+         </children>
+         <padding>
+            <Insets left="30.0" right="30.0" />
+         </padding>
+      </VBox>
+      <ImageView blendMode="RED" fitHeight="179.0" fitWidth="186.0">
+         <image>
+            <Image url="@../Imagen/kisspng-scholarship-baresan-university-computer-icons-scho-sotc-conference-ticket-state-of-talent-conferenc-5be395577171e7.5449394815416415594647.png" />
+         </image>
+      </ImageView>
+   </children>
+   <opaqueInsets>
+      <Insets />
+   </opaqueInsets>
+</HBox>
