@@ -40,7 +40,7 @@ public class ConexionServidor {
                 socket = new Socket(serverHostname, port);
                 in = new BufferedReader(new InputStreamReader(System.in));
                 out = new PrintWriter(socket.getOutputStream(), true);
-                Thread hiloservidor = new Thread(new ServerListen(socket));
+                Thread hiloservidor = new Thread(new ServerListen(socket,p));
                 hiloservidor.start();
                 System.out.println(hiloservidor.getName());
             } catch (IOException e) {
