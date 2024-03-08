@@ -5,7 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e43fb93c-7dfc-4738-9ddb-aa0e8e6d08b7" name="Changes" comment="se agregar el laboratorio 2 de infraestuctura computacional">
+      <change afterPath="$PROJECT_DIR$/src/logica/Bancos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/logica/BaseDatos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/logica/Carrera.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/logica/DetalleRegistro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/logica/DetallesPago.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/logica/Estudiante.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/logica/Materia.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/logica/Matricula.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/logica/Practico.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/logica/Teorico.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/logica/Teorico_Practico.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/logica/Universidad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/logica/nombreMaterias.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/ServerInputHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/servidor/Servidor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/servidor/Servidor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,23 +37,30 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
   <component name="ProjectId" id="2cpL6cpMSOEE9h8ra1pqWXnLq8o" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "Application.Servidor.executor": "Run",
+    "Application.servidor.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/juand/Desktop/ProyectoFinalII",
+    "last_opened_file_path": "C:/Users/juand/IdeaProjects/Laboratorio2/src",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -48,6 +70,23 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="thread" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\juand\IdeaProjects\Laboratorio2\src" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="servidor" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="servidor.Servidor" />
+      <module name="Laboratorio2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -70,6 +109,16 @@
       <workItem from="1709161584419" duration="678000" />
       <workItem from="1709335332697" duration="241000" />
       <workItem from="1709337436874" duration="1689000" />
+      <workItem from="1709341280253" duration="869000" />
+      <workItem from="1709570519749" duration="3404000" />
+      <workItem from="1709588561163" duration="3908000" />
+      <workItem from="1709601273871" duration="607000" />
+      <workItem from="1709686578694" duration="5187000" />
+      <workItem from="1709734527173" duration="17585000" />
+      <workItem from="1709764002723" duration="456000" />
+      <workItem from="1709768619254" duration="2712000" />
+      <workItem from="1709773670938" duration="4783000" />
+      <workItem from="1709818718671" duration="19502000" />
     </task>
     <task id="LOCAL-00001" summary="se agregar el laboratorio 2 de infraestuctura computacional">
       <option name="closed" value="true" />
@@ -79,7 +128,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709072054108</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="se agregar el laboratorio 2 de infraestuctura computacional">
+      <option name="closed" value="true" />
+      <created>1709341321677</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1709341321678</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -97,6 +154,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="se agregar el laboratorio 2 de infraestuctura computacional" />
     <option name="LAST_COMMIT_MESSAGE" value="se agregar el laboratorio 2 de infraestuctura computacional" />
   </component>
